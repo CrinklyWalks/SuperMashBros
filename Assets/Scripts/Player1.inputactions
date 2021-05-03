@@ -1,0 +1,63 @@
+{
+    "name": "Player1",
+    "maps": [
+        {
+            "name": "PlayerControl",
+            "id": "53724d61-06e0-451e-bd2b-07469e7ad7b9",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "4fd645e8-edeb-42a6-a871-b6c51a25dfd2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "981a1c09-ac0b-49cb-b425-c3f896e5d4ca",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "234d5f0d-19b1-43b2-9d01-25a5986788be",
+                    "path": "<HID::Performance Designed Products Afterglow Deluxe+ Audio Wired Controller>/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f42034b0-644e-4541-a48b-749792cad2cb",
+                    "path": "<HID::Performance Designed Products Afterglow Deluxe+ Audio Wired Controller>/button4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9c34f090-264b-44d5-bc02-6891f0bee940",
+                    "path": "<HID::Performance Designed Products Afterglow Deluxe+ Audio Wired Controller>/stick/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
